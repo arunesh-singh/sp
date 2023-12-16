@@ -1,0 +1,4 @@
+lex arithmetic.l
+yacc -d arithmetic.y
+gcc lex.yy.c y.tab.c -o arithmetic -ll
+./arithmetic

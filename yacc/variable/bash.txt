@@ -1,0 +1,6 @@
+lex variable.l
+yacc -d variable.y
+gcc lex.yy.c y.tab.c -o variable -ll
+./variable
+
+inuput : a5

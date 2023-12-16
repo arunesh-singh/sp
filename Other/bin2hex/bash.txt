@@ -1,0 +1,8 @@
+how to run
+
+lex binary_to_hexadecimal.l
+gcc lex.yy.c -o binary_to_hexadecimal -ll
+./binary_to_hexadecimal
+
+
+input : 1010

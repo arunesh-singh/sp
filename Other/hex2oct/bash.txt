@@ -1,0 +1,8 @@
+how to run 
+
+lex octal_to_hexadecimal.l
+gcc lex.yy.c -o octal_to_hexadecimal -ll
+./octal_to_hexadecimal
+
+
+input : 12

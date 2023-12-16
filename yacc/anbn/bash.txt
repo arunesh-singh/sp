@@ -1,0 +1,6 @@
+lex anbn.l
+yacc -d anbn.y
+gcc lex.yy.c y.tab.c -o anbn -ll
+./anbn
+
+input : 'aaabbb' 
